@@ -1,0 +1,206 @@
+header div nav div {
+  margin-top: 1%;
+}
+header div nav div a img {
+  padding: 1px;
+  margin-left: 1%;
+}
+
+.mainproductos {
+ margin-top: 4%;
+}
+
+.navbar {
+  margin-top: 1%;
+  display: flex;
+  background-color: gray;
+}
+
+
+.cardproductos {
+  width: 40%;
+  text-align: center;
+
+}
+
+.informacionservicio { 
+  padding: 3%;
+}
+
+.formularioconsulta {
+  padding: 3%;
+}
+
+
+
+.btn-one {
+	color: black;
+	transition: all 0.3s;
+	position: relative;
+}
+.btn-one span {
+	transition: all 0.3s;
+}
+.btn-one::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: gray;
+	border-bottom-color: gray;
+	transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+	letter-spacing: 2px;
+}
+.btn-one:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+.btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+
+
+}
+.btn-one:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+
+
+
+/*FOOTER*/
+
+.footer {
+  margin-top: 10%;
+  background-color: gray;
+  padding: 1%;
+}
+
+#infofooter {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1%;
+}
+.quienessomos {
+  display: inline-block;
+  margin-right: 80px;
+  font-family: 'roboto', sans-serif;
+  padding-top: 1%;
+}
+.contactowsp {
+  display: inline-block;
+  margin-right: 80px;
+  vertical-align: top;
+  text-decoration: none;
+  font-family: 'roboto', sans-serif;
+  padding-top: 1%;
+}
+
+.wplnk {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'roboto', sans-serif;
+  padding-top: 1%;
+  
+}
+.redessociales{
+  display: inline-block;
+  margin-right: 80px;
+  vertical-align: top;
+  font-family: 'roboto', sans-serif;
+  padding-top: 1%;
+}
+.redessociales ul li{
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'roboto', sans-serif;
+  padding-top: 1%;
+}
+.redessociales a{
+  text-decoration: none;
+  padding-top: 1%;
+}
+.ubicacion{
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'roboto', sans-serif;
+  padding-top: 1%;
+  margin-right: 80px;
+  
+}
+
+/*ayuda*/
+.ayuda { 
+  background-image: url(../img/MANTENIMIENTO.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ayuda h1 {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 10px;    
+}
+
+.volver {
+  text-decoration: none;
+  margin-left: 45%;  
+  color: black;  
+  border: 2px solid black;
+  padding: 3px;
+}
+
+/*PRODUCTOS*/
+.contenedorProducto {
+  text-align: center;
+}
+.contenedorProducto h1 {
+ color: red;
+ border: 1px solid green;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ background-color: black;
+}
+
+/*SERVICIO TECNICO*/
+.serviciotecnico {
+  text-align: center;
+}
+
+.serviciotecnico h1 {
+  color: red;
+  border: 1px solid green;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: black;
+}
+
+.iconosredes {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
